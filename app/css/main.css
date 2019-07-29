@@ -1,0 +1,626 @@
+h1 {
+	margin: 0;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-family: Comic Sans MS;
+}
+.background {
+	background-image: url("https://drive.google.com/uc?authuser=0&id=1XYwMdMhJiniQdsZYgt-MCBZssnP6u4Te&export=download");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    min-width: 1200px;
+    min-height: 720px;
+}
+.mid{
+	width: 100%
+	margin-left: auto;
+    margin-right: auto;
+}
+.midle {
+	display: box;
+	width: 100%;
+}
+.midle_2{
+	width: 15%;
+	margin-left: auto;
+    margin-right: auto;
+}
+.midle_2 input{
+	font-family: Comic Sans MS;
+	border-color: black;
+	width: 100%;
+	height: 40px;
+	background-color: sienna;
+	color: white;
+	margin-top: 10px;
+	display: inline-box;
+}
+.main {
+	width: 960px;
+	height: 100%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.pozadni_nadpis {
+	background-image: url('../img/titul.png');
+	background-size: 100% 100%;
+	margin-left: auto;
+    margin-right: auto;
+	width: 500px;
+    height: 150px;
+}
+
+.nadpis {
+	padding-top: 30px;
+	text-align: center;
+	font-size: 30px;
+	width: 80%;
+	margin: auto;
+	color: white;
+	overflow: hidden;
+}
+.nadpis h3 {
+	margin-top: 20px;
+}
+
+.pozadni_nadpis_vlevo{
+	background-image: url('../img/titul.png');
+	background-size: 100% 100%;
+	width: 500px;
+    height: 150px;
+    float:left;
+}
+.odsazeni{
+	height: 80px;
+}
+
+.odsazeni_2{
+	height: 20px;
+}
+
+.deska {
+	background-image: url('../img/deska.png');
+	background-size: 100% 100%;
+	margin-left: auto;
+    margin-right: auto;
+	width: 800px;
+    height: 300px;
+}
+.deska_2 {
+	background-image: url('../img/deska.png');
+	background-size: 100% 100%;
+	margin-left: auto;
+    margin-right: auto;
+	width: 800px;
+    height: 370px;
+    color: white;
+}
+.prihlasovaci_menu {
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.kolonky{
+	margin-top: 30px;
+	margin-left: 100px;
+	display: inline-block;
+	width: 40%;
+}
+.kolonky_3{
+	margin-left: 100px;
+	display: inline-block;
+	width: 40%;
+}
+.kolonka {
+	margin-top: 40px;
+	font-size: 30px;
+	display:inline-block;
+}
+.kolonky_2{
+	margin-top: 80px;
+	margin-left: 80px;
+	display: inline-block;
+	width: 220px;
+	text-align: center;
+}
+.kolonka_2 {
+	margin-top: 0px;
+	font-size: 30px;
+	display:inline-block;
+	float: left;
+}
+.kolonka_3 {
+	margin-top: 140px;
+	font-size: 30px;
+	width: 400px;
+	display:inline-block;
+	float: left;
+}
+.kolonka input {
+	margin-left: 10px;
+	display: block
+
+}
+.prihlaseni {
+	margin-top: 110px;
+	margin-right: 170px;
+	float: right;
+}
+.prihlaseni button {
+	background-image: url('../img/sipka.png');
+	background-color: inherit;
+	border: none;
+	width: 140px;
+    height: 100px;
+    color: white;
+    font-size: 20px;
+}
+.prihlaseni button p{
+	margin-right: 25px;
+}
+.registrace {
+	margin-top: 80px;
+	margin-right: 50px;
+	float: right;
+
+}
+.registrace button {
+	background-image: url('../img/sipka.png');
+	background-color: inherit;
+	border: none;
+	width: 140px;
+    height: 100px;
+    color: white;
+    font-size: 20px;
+}
+.registrace button p{
+	margin-right: 25px;
+}
+.tlacitka_vedle_sebe {
+	background-image: url('../img/box_plocha.png');
+	background-size: 100% 100%;
+	display: inline-block;
+	margin: auto;
+	width: 250px;
+    height: 100px;
+    text-align: center;
+ }
+
+.tlacitka_vedle_sebe_2 {
+	background-image: url('../img/box_plocha.png');
+	background-size: 100% 100%;
+	background-color: inherit;
+	border: none;
+	display: inline-block;
+	margin-top: 25px;
+	margin-left: 40px;
+    margin-right: 25px;
+	width: 250px;
+    height: 100px;
+    text-align: center;
+    color: white
+}
+
+.nazev_zvirete {
+	background-image: url('../img/box_plocha.png');
+	background-size: 100% 100%;
+	margin-left: auto;
+    margin-right: auto;
+	width: 250px;
+    height: 70px;
+    text-align: center;
+}
+.logout {
+	margin-top: 25px;
+}
+.nazev_zvirete h2{
+	padding-top: 25px;
+}
+.tlacitko_pod {
+	background-image: url('../img/box_plocha.png');
+	background-size: 100% 100%;
+	margin-top: 80px;
+	margin-left: auto;
+    margin-right: auto;
+	width: 250px;
+    height: 100px;
+    text-align: center;
+}
+
+.vedle h2 {
+	margin-top: 30px;
+	font-size: 30px;
+}
+.tlacitko_pod h2 {
+	font-size: 30px;
+	padding-top: 35px;
+
+}
+.informace {
+	background-image: url('../img/deska.png');
+	background-size: 100% 100%;
+	float:right;
+	width: 500px;
+    height: 400px;
+    display: inline-block;
+
+}
+.page_count {
+	background-color: white;
+	width: 100px;
+	color: black;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	border: solid;
+}
+.page_count input[type=text] {
+    border: none;
+    width: 50px;
+    text-align: right;
+    font-size: 17px;
+}
+.page_num{
+	display: inline-block;
+}
+.informace p{
+    font-size: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.informace_2 {
+	background-image: url('../img/deska.png');
+	background-size: 100% 100%;
+	margin-left: auto;
+    margin-right: auto;
+	width: 700px;
+    height: 300px;
+}
+.informace_2 p {
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-top: 70px;
+	font-size: 20px;
+}
+.obrazek {
+	margin-top: 30px;
+	float: left;
+	width: 400px;
+    height: 300px;
+}
+.obrazek img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	border: solid;
+	border-color: black;
+}
+.obrazek_2 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	width: 400px;
+    height: 300px;
+}
+.obrazek_2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	border: solid;
+	border-color: black;
+}
+#piechart{
+	padding-left: 150px;
+}
+.new_row{
+	position: relative;
+	top: 50px;
+	left: 50px;
+	width: 100px;
+	font-size: 20px;
+}
+.obrazek_3 {
+	background-size: 100% 100%;
+	background-color: inherit;
+	border:none;
+	margin-top: 30px;
+	margin-right: 100px;
+	margin-left: 100px;
+	display: inline-block;
+	width: 250px;
+    height: 150px;
+}
+.obrazek_3 img {
+    border:solid black;
+}
+.row_obr {
+	width: 100%;
+	height: 200px;
+}
+.nav_menu {
+	margin-top: 20px;
+	width: 100%;
+	display: inline-block;
+}
+.nav_menu p{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	margin-top: 30px;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+.vedle {
+	width: auto;
+	display: -webkit-flex;
+	-webkit-flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+.vedle input{
+	font-size: 25px;
+}
+p #text + label:before{
+	content: "\2714";
+}
+.zpet_menu {
+	background-image: url('../img/box_plocha.png');
+	background-size: 100% 100%;
+	width: 300px;
+    height: 100px;
+    display: block;
+    padding-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.zpet_menu p {
+	margin-top: 20px;
+}
+.zpet {
+	background-image: url('../img/zpet.png');
+	background-size: 100% 100%;
+	float: left;
+	width: 200px;
+    height: 100px;
+}
+.zpet_menu p {
+	font-size: 40px;
+}
+.dalsi {
+	background-image: url('../img/dalsi.png');
+	background-size: 100% 100%;
+	float: right;
+	width: 200px;
+    height: 100px;
+} 
+.dalsi p {
+	margin-top: 25px;
+}
+.logout {
+	background-image: url('../img/dalsi.png');
+	background-size: 100% 100%;
+	display: inline-block;
+	width: 200px;
+    height: 100px;
+}
+.dalsi_2 {
+	background-image: url('../img/dalsi.png');
+	background-size: 100% 100%;
+	float: right;
+	width: 200px;
+    height: 100px;
+}
+.dalsi_2 p{
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	margin-top: 25px;
+	margin-right: 20px;
+}
+.posun {
+	width: 90%;
+	height: 12%;
+	margin-left: auto;
+	margin-right:auto;
+}
+.posun_2 {
+	bottom: 50px;
+	width: 90%;
+	height: 12%;
+	margin-left: auto;
+	margin-right:auto;
+}
+.next {
+	background-image: url('../img/sipka.png');
+	background-size: 100% 100%;
+	float: right;
+	display: inline-block;
+	width: 50px;
+    height: 50px;
+}
+.back {
+	background-image: url('../img/sipka_2.png');
+	background-size: 100% 100%;
+	display: inline-block;
+	float: left;
+	width: 50px;
+    height: 50px;
+}
+.row {
+	display: inline-block;
+	width: 100%;
+	height: 70%;
+}
+.row p {
+	overflow: hidden;
+}
+
+.row_2 {
+	margin-top: 25px;
+	display: inline-block;
+	height: 25%;
+	text-align: left;
+	overflow: hidden;
+}
+.column {
+	margin-top: 20px;
+	margin-left: 10px;
+    float: left;
+    width: 30%;
+    overflow: hidden;
+}
+.column p{
+	margin: 0px;
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+.column_2 {
+	margin-top: 30px;
+	margin-left: 17px;
+    float: left;
+    font-size: 35px;
+    width: 30%;
+    text-align: center;
+}
+.column_2 p{
+	margin: 0px;
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+.column_3 {
+	margin-top: 45px;
+	margin-left: 10px;
+	text-align: center;
+	display: inline-block;
+	font-size: 22px;
+    float: left;
+    width: 30%;
+}
+
+div.ex3 {
+    background-color: white;
+    color: black;
+    width: 280px;
+    height: 150px;
+    margin: auto;
+    display: inline-block;
+    overflow: auto;
+}
+.logout a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	margin-bottom: -20px;
+}
+a:hover{
+	text-decoration: underline;
+}
+.logoutpom{
+	margin-top: 28px;
+	margin-right: 15px;
+}
+.logout{
+	float: right;
+	text-align:center;
+}
+
+
+.column_3 input[type=checkbox] + label {
+  display: block;
+  margin: 0.2em;
+  cursor: pointer;
+  padding: 0.2em;
+}
+
+.column_3 input[type=checkbox] {
+    display: none;
+}
+
+.column_3 input[type=checkbox] + label:before {
+  content: "\292B";
+  color: red;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  padding-left: 0.5em;
+  padding-bottom: 0.3em;
+  margin-right: 0.5em;
+  vertical-align: bottom;
+  transition: .2s;
+}
+
+.column_3 input[type=checkbox] + label:active:before {
+  transform: scale(0);
+}
+
+.column_3 input[type=checkbox]:checked + label:before {
+  content: "\2714";
+  color: lime;
+}
+
+.column_3 input[type=checkbox]:disabled + label:before {
+  transform: scale(1);
+  border-color: #aaa;
+}
+
+.column_3 input[type=checkbox]:checked:disabled + label:before {
+  transform: scale(1);
+  background-color: #bfb;
+  border-color: #bfb;
+}
+
+.column_3 input[type=radio] + label {
+  display: block;
+  margin: 0.2em;
+  cursor: pointer;
+  padding: 0.2em;
+}
+
+.column_3 input[type=radio] {
+    display: none;
+}
+
+.column_3 input[type=radio] + label:before {
+  content: "\292B";
+  color: red;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  padding-left: 0.2em;
+  padding-bottom: 0.3em;
+  margin-right: 0.2em;
+  vertical-align: bottom;
+  color: transparent;
+}
+
+.column_3 input[type=radio] + label:active:before {
+  transform: scale(0);
+}
+
+.column_3 input[type=radio]:checked + label:before {
+  content: "\2714";
+  color: lime;
+}
+
+.column_3 input[type=radio]:disabled + label:before {
+  transform: scale(1);
+  border-color: #aaa;
+}
+
+.column_3 input[type=radio]:checked:disabled + label:before {
+  transform: scale(1);
+  background-color: #bfb;
+  border-color: #bfb;
+}
